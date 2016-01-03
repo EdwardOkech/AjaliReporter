@@ -12,10 +12,10 @@ app = Flask(__name__)
 # authenticate("localhost:7474", "neo4j", " neo4j")
 graph = Graph("http://localhost:7474/db/data/")
 
-user = Node("User", username="Edward", password="userpass1")
-report = Node("Report", title="Accident at Sachangwan",
+user = Node("User", username="Juliet")
+report = Node("Report", title="Accident at voi",
                road="nairobi-nakuru", details="a saloon car rammed into a PSV bus")
-tag = Node("Tag", name="sachangwan")
+tag = Node("Tag", name="arusha")
 
 
 class User:
